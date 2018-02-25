@@ -7,6 +7,7 @@ I will add here from time to time different implemenations of functionality whic
 - MongoDB in combination with an CRUD REST API
 - MySQL in combination with an CRUD REST API
 - RabbitMQ
+- Micrservices Architecture
 - Scheduling Tasks
 - Authentication
 - Facebook registration
