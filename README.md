@@ -8,12 +8,10 @@ The master branch will allways include all features. If an specific implemenatit
 
 # Roadmap
 
-* # Roadmap
-
-  * \[x\] JPA example with CRUD REST API
-  * \[ \] Integrate docker for mysql, mongodb, rabbitmq
-  * \[ \] MongoDB with CRUD REST API
-  * \[ \] Microservices Architecture
+* \[x\] JPA example with CRUD REST API
+* \[ \] Integrate docker for mysql, mongodb, rabbitmq
+* \[ \] MongoDB with CRUD REST API
+* \[ \] Microservices Architecture
 
 
 
