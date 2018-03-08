@@ -5,8 +5,8 @@ import org.springframework.data.mongodb.core.mapping.Document
 import javax.persistence.Id
 
 @Document
-class Todo(@Id val id: String? = null,
-           var name: String = "", var completed: Boolean = false) {
+class TodoMongo(@Id val id: String? = null,
+                var name: String = "", var completed: Boolean = false) {
 
     fun validate() {
         val errors = mutableListOf<String>()
