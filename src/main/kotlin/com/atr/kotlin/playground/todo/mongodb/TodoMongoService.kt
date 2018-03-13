@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service
 @Service("todoMongoService")
 class TodoMongoService(private val todoMongoRepository: TodoMongoRepository) {
 
-    fun findAllTodoJPAs(): List<TodoMongo> = todoMongoRepository.findAll()
+    fun findAllTodos(): List<TodoMongo> = todoMongoRepository.findAll()
 
     fun findTodobyId(id: Long): TodoMongo = todoMongoRepository.findOne(id)
 
@@ -15,5 +15,7 @@ class TodoMongoService(private val todoMongoRepository: TodoMongoRepository) {
     fun updateTodoMongo(todoJPA: TodoMongo): TodoMongo = todoMongoRepository.save(todoJPA)
 
     fun deleteTodoMongoById(id: Long) = todoMongoRepository.delete(id)
+
+    fun deleteAllTodos() = todoMongoRepository.deleteAll()
 
 }
