@@ -7,9 +7,10 @@ I will add here from time to time different implementations of functionality whi
 # Roadmap
 
 * [x\] JPA example with CRUD REST API
+* \[x\] MongoDB with CRUD REST API
 * [ \] Write Unit tests for JPA example
 * \[ \] Integrate docker for mysql, mongodb, rabbitmq
-* \[ \] MongoDB with CRUD REST API
+
 * \[ \] Microservices Architecture
 
 
